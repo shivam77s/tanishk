@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Book Store</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        .navbar-item {
+            position: sticky;
+            top: 1;
+            z-index: 1000;
+        }
+        .carousel-item img {
+            width: 100%;
+            height: 100%;
+            min-height: auto;
+            max-height: 400px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Welcome to Our Ram book House</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="hh">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="bb">Books</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cc">Collection</a></li>
+
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Carousel -->
+    <div id="carouselExampleIndicators"   class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators" id="hh">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Beige Brown Minimalist and Modern Thank You Card.png" class="d-block w-100" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.shutterstock.com/shutterstock/photos/2184804997/display_1500/stock-vector-book-festival-and-fair-concept-little-girl-reading-in-the-open-huge-book-opened-as-a-home-2184804997.jpg" class="d-block w-100" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5Tw4MYkOv7mW-H5RQFLiQF7WdsU3QUGMv5g&s" class="d-block w-100" alt="Third slide">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+    </div>
+     <!-- Book Section -->
+     <div class="container mt-5">
+        <h2 class="text-center mb-4">Our Collection</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://m.media-amazon.com/images/I/51QnuLIY2uL._SY445_SX342_.jpg" class="card-img-top" alt="Book 1">
+                    <div class="card-body">
+                        <h5 class="card-title">The Power of Your Subconscious Mind</h5>
+                       
+                        <p class="text-danger">Price:345.rs</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://m.media-amazon.com/images/I/417WFuXHHzL._SY445_SX342_.jpg" class="card-img-top" alt="Book 2">
+                    <div class="card-body">
+                        <h5 class="card-title">The Monk Who Sold His Ferrari</h5>
+                       
+                        <p class="text-danger">Price: 230.rs</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://m.media-amazon.com/images/I/41zSLTwGoIL._SY445_SX342_.jpg" class="card-img-top" alt="Book 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Your Healing Power</h5>
+                        <!-- <p class="card-text">Author: Mark Smith</p> -->
+                        <p class="text-danger"> price: 890.rs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <!-- <h2 class="text-center mb-4">Our Collection</h2> -->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://m.media-amazon.com/images/I/81dKaHtenxL._SY342_.jpg" class="card-img-top" alt="Book 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Tulsidas Ramayana </h5>
+                        <!-- <p class="card-text">Author: John Doe</p> -->
+                        <p class="text-danger">Price: 470.rs</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://m.media-amazon.com/images/I/51vp5kZo-SL._SX342_SY445_.jpg" class="card-img-top" alt="Book 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Mahabharata</h5>
+                        <!-- <p class="card-text">Author: Jane Doe</p> -->
+                        <p class="text-danger">Price:439.rs</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://m.media-amazon.com/images/I/41POaFd9rwL._SX342_SY445_.jpg" class="card-img-top" alt="Book 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Dasha Avatar (10002) </h5>
+                        <!-- <p class="card-text">Author: Mark Smith</p> -->
+                        <p class="text-danger">Price:400.rs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5" id="photo" >
+        <h2 class="text-center mb-4">Our Photo <span class="text-warning">GALLERY</span></h2>
+        <p class="text-center">Your Attention Is Changed The Part Of World. Give a helping hand to those who need it!</p>
+        
+        <div class="row">
+            <div class="col-6 col-md-4 mb-4">
+                <img src="https://media.istockphoto.com/id/944631208/photo/education-concept-with-book-in-library.jpg?s=612x612&w=0&k=20&c=uJF-uOU5MRR-iwXqJEPAdXeaH-VJ-nqt6TdKUpEdEkk=" class="img-fluid rounded" alt="Image 1">
+            </div>
+            <div class="col-6 col-md-4 mb-4">
+                <img src="https://cdn-v2.asla.org/uploadedImages/CMS/Shop/Bookstore/books.jpg" class="img-fluid rounded" alt="Image 2">
+            </div>
+            <div class="col-6 col-md-4 mb-4">
+                <img src="https://images.unsplash.com/photo-1610116306796-6fea9f4fae38?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Ym9va3N8ZW58MHx8MHx8fDA%3D" class="img-fluid rounded" alt="Image 3">
+            </div>
+            <div class="col-6 col-md-4 mb-4">
+                <img src="https://images.squarespace-cdn.com/content/v1/52a130cee4b0ddb90964dbbc/1386641943070-LLFK6HIOTK0H2GX1S2RF/ramayana+book+cover+sanjay+patel.jpg" class="img-fluid rounded" alt="Image 4">
+            </div>
+            <div class="col-6 col-md-4 mb-4">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYFAW8RUp3bxL6e2kbpffnodIWuPRnlhsmPWcxtb6UEzCNq2V2PKcw-kjnUj9SCtBW7hE&usqp=CAU" alt="Image 5">
+            </div>
+            <div class="col-6 col-md-4 h mb-4">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB-ADCqV7L_33lywstvsYnghCMkUDeOctaKE6wCf0StxGRnDmzXq2eP5InEfXenImIioM&usqp=CAU" class="img-fluid rounded" alt="Image 6">
+            </div>
+        </div>
+      </div>
+
+    <!-- Contact Form -->
+    <div class="container mt-5" id="contact">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <form onsubmit="sendToWhatsApp(); return false;">
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Your message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <p>&copy; 2025 Book Haven. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        function sendToWhatsApp() {
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            var message = document.getElementById("message").value;
+            
+            var whatsappMessage = "Name: " + name + "%0A" + "Email: " + email + "%0A" + "Message: " + message;
+            var whatsappURL = "https://wa.me/7891038345?text=" + whatsappMessage;
+            window.open(whatsappURL, "_blank");
+        }
+    </script>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
